@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1>
+        <title>TP1 Guillaume Barré</title>
+        <body>
+            <h1>Ajout d'un enseignant</h1>
+            <div id="Info">
+                <fieldset>
+                    <legend>Informations personnelles</legend>
+                    <p>
+                        <label for="name">Nom</label><br>
+                        <input type="text" id="name" placeholder="Entrez votre nom"><br><br>
+
+                        <label for="prenom">Prénom</label><br>
+                        <input type="text" id="prenom" placeholder="Entrez votre prénom"><br><br>
+
+                        <label for="date">Nom</label><br>
+                        <input type="date" id="date" placeholder="Date de naissance"><br><br>
+
+                        <label for="mail">Email</label><br>
+                        <input type="email" id="mail" placeholder="Adresse électronique">
+                        <abbr title="Email est unique dans la base">?</abbr><br><br>
+
+                        <label for="confmail">Confirmation email</label><br>
+                        <input type="email" id="Confmail" placeholder="Adresse électronique"><br><br>
+
+                        <label for="adresse">Adresse</label><br>
+                        <textarea rows="5" cols="26"></textarea><br><br>
+                        
+                        <label for="sexe">Sexe</label><br>
+                        <input type="radio" id="homme" name="sexe" value="Homme">
+                        <label for="homme">Homme</label>
+                        <input type="radio" id="femme" name="sexe" value="Femme">
+                        <label for="femme">Femme</label><br><br>
+                        
+                        <label for="grade">Grade</label><br>
+                        <select name="grade" id="grade" multiple size="5">
+                            <option value="assistant">Assistant</option>
+                            <option value="charge">chargé(e) de cours</option>
+                            <option value="mca">MCA</option>
+                            <option value="mcb">MCB</option>
+                            <option value="professeur">Professeur</option>
+                            <option value="autre">Autre</option>
+                        </select><br><br>
+
+                        <label for="diplome-choix">Dernier diplôme</label><br>
+                        <input list="diplome" name="diplome-choix" id="diplome-choix" placeholder="Dernier diplôme">
+                        <datalist id="diplome">
+                            <option value="Doctorat">
+                            <option value="Thèse d'état">
+                            <option value="Nouvelle thèse">
+                            <option value="Master">
+                            <option value="Ingéniorat">
+                        </datalist>
+                    </p>
+                </fieldset>
+            </div>
+            <div id="Enseignement">
+                
+            </div>
+        </body>
+    </head>
+</html>
