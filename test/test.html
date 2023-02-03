@@ -5,6 +5,76 @@
         <meta name="viewport" content="width=device-width",initial-scale=1>
         <link rel="stylesheet" href="moncss.css">
         <title>titre de la page</title>
+        <style>
+            #titre
+            {
+                background-color: yellow;
+            }
+            
+            .rouge
+            {
+                background-color: red;
+            }
+
+            .bleu
+            {
+                background-color: blue;
+            }
+
+            #d1
+            {
+                width: 60px;
+                height: 60px;
+                background-color: blue;
+            }
+
+            #d2
+            {
+                width: 200px;
+                height: 200px;
+                border: 2px dashed yellow;
+                background-color: red;
+                padding: 30px;
+                margin-left: 20px;
+            }
+
+            #d2:hover
+            {
+                width: 200px;
+                height: 200px;
+                background-color: orange;
+                visibility: hidden;
+            }
+
+            #d3
+            {
+                width: 60px;
+                height: 60px;
+                background-color: yellow;
+            }
+
+            #d3:active
+            {
+                width: 60px;
+                height: 60px;
+                background-color: palevioletred;
+            }
+
+            #d3:hover,#d1:hover
+            {
+                opacity: 0.5;
+            }
+
+            body {
+                background: lightyellow;
+            }
+            
+            td,th
+            {
+                padding: 10px;
+            }
+        </style>
+    </head>
         <body>
             <!-- commentaire de maboule-->
             <h1>Le site de maboule</h1>
@@ -26,15 +96,44 @@
                 <li>Troisième raison: crois moi</li>
             </ol>
             <hr><br>
+
             <input type="text" placeholder="Entrez votre nom"><br><br>
             <input type="date" placeholder="Entrez la date"><br><br>
             <input type="password" placeholder="Entrez votre mot de passe"><br><br>
+
             <select size="3">
                 <option>Bruh</option>
                 <option>Ayah</option>
                 <option>Hihihiha</option>
-            </select>
-            <div type="fin">Site de maboule eh ouais</div>
+            </select><br><br>
+
+            <table border="2">
+                <tr id="titre">
+                    <th>NOM</th>
+                    <th>PRENOM</th>
+                </tr>
+                <tr class="rouge">
+                    <td>Ben</td>
+                    <td>Tom</td>
+                </tr>
+                <tr class="bleu">
+                    <td>Ben</td>
+                    <td>Tom</td>
+                </tr>
+                <tr class="rouge">
+                    <td>Ben</td>
+                    <td>Tom</td>
+                </tr>
+                <tr class="bleu">
+                    <td>Ben</td>
+                    <td>Tom</td>
+                </tr>
+            </table><br><br>
+            
+            <div id="d1"></div><br>
+            <div id="d2">CSS</div><br>
+            <div id="d3"></div><br>
+
+            <img id="penguin" src="/cergy/homee/b/barreguill/HTML/penguin.png" height="200" width="200"><br><br>
         </body>
-    </head>
 </html>
