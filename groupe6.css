@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+span {
+    font-size: xxx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    margin: 20px;
+}
+
+div {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+.gauche {
+    width: auto;
+    margin-right: 50%;
+}
+
+.droite {
+    width: auto;
+    margin-left: 50%;
+}
+
+#sommaire {
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+}
