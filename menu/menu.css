@@ -1,0 +1,56 @@
+#menu, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu>li {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 10px 10px 0 0;
+}
+
+#menu li {
+    width: 110px;
+    position: relative;
+}
+
+#menu li:hover {
+    background: orange;
+}
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: red;
+}
+
+#menu>li>ul { 
+    position: absolute;
+    left: -1000px;
+    background: orange;
+    border: 1px solid red;
+}
+
+#menu>li:hover>ul {
+    top: 100%;
+    left: 0;
+}
+
+#menu>li>ul>li>ul {
+    position: absolute;
+    left: -1000px;
+    background: orange;
+}
+
+#menu>li>ul>li:hover>ul {
+    top: 0;
+    left: 100%;
+}
+
+#menu li>a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: orangered;
+}
