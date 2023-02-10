@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1>
+        <title>Title</title>
+        <script type="text/javascript" src="script.js"></script>
+        <style>
+            html {
+                background-color: lightgoldenrodyellow;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            body {
+                text-align: center;
+            }
+            #calc {
+                border: 4px solid black;
+                background: linear-gradient(orangered, yellow);
+                font-size: 4em;
+                padding: 20px;
+                width: 400px;
+                height: 200px;
+                display: inline-block;
+            }
+            #mult {
+                border: 4px solid black;
+                background: linear-gradient(blue, aquamarine);
+                font-size: 4em;
+                padding: 20px;
+                width: 400px;
+                height: 200px;
+            }
+            #tab {
+                border: 4px solid black;
+                background: linear-gradient(green, yellowgreen);
+                font-size: 4em;
+                padding: 20px;
+                width: 400px;
+                height: 200px;
+            }
+            hr {
+                padding: 2px;
+                background-color: black;
+            }
+            #table,#som,#chiffre {
+                margin: 20px;
+                text-align: left;
+            }
+        </style>
+        <body>
+            <button id="calc" onclick="saisie()">CALCULER</button>
+            <p style="text-align: left; margin: 20px;">Calcul:</p>
+            <p id="som"></p>
+        </body>
+        <hr>
+        <button id="mult" onclick="table_multi()">TABLE</button>
+        <p style="text-align: left; margin: 20px;">Table de multiplication:</p>
+        <p id="table"></p>
+        <hr>
+        <button id="tab" onclick="chiffre()">CHIFFRE</button>
+        <p style="text-align: left; margin: 20px;">Tab chiffre:</p>
+        <p id="chiffre"></p>
+    </head>
+</html>
