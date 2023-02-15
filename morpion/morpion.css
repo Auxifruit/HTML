@@ -1,0 +1,33 @@
+html {
+	background-color: #FEF9E7;
+}
+
+#titre {
+	width: 50%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 2px solid black;
+	font-family: arial;
+	text-decoration: underline;
+	background: linear-gradient(#FCF3CF, #F4D03F);
+}
+
+#ligne {
+	background-color: black;
+	height: 10px;
+}
+
+table,tr,td {
+	border: 5px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tour {
+	font-family: arial;
+	text-align: center;
+	font-size: 1.2em;
+}
