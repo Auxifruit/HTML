@@ -7,21 +7,24 @@
         <script type="text/javascript" src="morpion.js"></script>
         <link rel="stylesheet" href="morpion.css">
         <body>
-            <table border="10">
+			<h1 id="titre">Morpion</h1>
+			<div id="ligne"></div>
+			<p id="tour">Tour du joueur</p>
+            <table id="jeu">
                 <tr>
-                    <td><img onclick="round(this,0,0)" id="img1" src="fond.png" height="500" width="500"></td>
-                    <td><img onclick="round(this,0,1)" id="img2" src="fond.png" height="500" width="500"></td>
-                    <td><img onclick="round(this,0,2)" id="img3" src="fond.png" height="500" width="500"></td>
+                    <td><img onclick="round(this,0,0)" class="case" src="fond.png" height="250" width="250"></td>
+                    <td><img onclick="round(this,0,1)" class="case" src="fond.png" height="250" width="250"></td>
+                    <td><img onclick="round(this,0,2)" class="case" src="fond.png" height="250" width="250"></td>
                 </tr>
                 <tr>
-                    <td><img onclick="round(this,1,0)" id="img4" src="fond.png" height="500" width="500"></td>
-                    <td><img onclick="round(this,1,1)" id="img5" src="fond.png" height="500" width="500"></td>
-                    <td><img onclick="round(this,1,2)" id="img6" src="fond.png" height="500" width="500"></td>
+                    <td><img onclick="round(this,1,0)" class="case" src="fond.png" height="250" width="250"></td>
+                    <td><img onclick="round(this,1,1)" class="case" src="fond.png" height="250" width="250"></td>
+                    <td><img onclick="round(this,1,2)" class="case" src="fond.png" height="250" width="250"></td>
                 </tr>
                 <tr>
-                    <td><img onclick="round(this,2,0)" id="img7" src="fond.png" height="500" width="500"></td>
-                    <td><img onclick="round(this,2,1)" id="img8" src="fond.png" height="500" width="500"></td>
-                    <td><img onclick="round(this,2,2)" id="img9" src="fond.png" height="500" width="500"></td>
+                    <td><img onclick="round(this,2,0)" class="case" src="fond.png" height="250" width="250"></td>
+                    <td><img onclick="round(this,2,1)" class="case" src="fond.png" height="250" width="250"></td>
+                    <td><img onclick="round(this,2,2)" class="case" src="fond.png" height="250" width="250"></td>
                 </tr>
             </table>
         </body>
