@@ -1,9 +1,9 @@
 grille=[[-1,-1,-1], [-1,-1,-1], [-1,-1,-1]]
-parseInt(joueur)=0;
+let joueur=0;
 
 
 function round(image,x,y) {
-    joueur += 1;
+    joueur=(joueur+1)%2;
     if (joueur==1) {
         image.src="circle.png";
     }
