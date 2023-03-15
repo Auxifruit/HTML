@@ -22,6 +22,9 @@
             border: solid 2px black;
             background-color: lightblue;
         }
+        table {
+          border: solid 2px black;
+        }
         tr,th,td {
             padding: 10px;
         }
